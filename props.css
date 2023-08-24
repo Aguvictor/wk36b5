@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Montserrat:ital,wght@1,200&family=Recursive&display=swap');
+
+Main{
+    width: 500px;
+}
+
+section{
+    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+    border: 5px solid blue;
+}
+
+.props:nth-of-type(4){
+    background: linear-gradient(60deg, rgb(140, 214, 140) rgb(237, 170, 237));
+
+}
+
+.props:nth-of-type(2){
+    background: linear-gradient(90deg, black 25%, blue 25%);
+}
+
+.props:nth-of-type(3){
+    background: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%);
+}
+
+.props:nth-of-type(1){
+    background-image: linear-gradient(to bottom left, crimson 40%, fuchsia 40%);
+}
+
+.props:nth-of-type(5){
+    background: radial-gradient(circle, green 50%, black 50%);
+}
+
+.props:first-of-type:hover{
+    background-color: white;
+}
+
+h1{
+    font-family: cursive;
+    font-weight: 700;
+}
+p{
+    font-family:'Quicksand', cursive;
+    background-image: conic-gardient(
+        red 20%,
+        blue 20%,
+        blue 55%,
+        magenta 55%,
+        moccasin 66.6%
+        skyblue 75%
+        skyblue 89%
+
+
+
+    );
+    color: rgb(0, 0, 255);
+    color: rgb(0, 0, 255);
+    color: rgb(0, 0, 255);
+    color: hsl(230, 8%, 30%);
+    color: rgb(124, 185, 27);
+}
