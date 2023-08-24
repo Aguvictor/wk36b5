@@ -1,8 +1,8 @@
 
 
 
-main{
-    width: 500px;
+html{
+    font-size: 35px;
 }
 
 section{
@@ -14,16 +14,50 @@ section{
 
 .props:first-of-type{
     background: linear-gradient(90deg, green 33.3%, white 33.3%, white 66.6%, green 66.6%);
+    border-left: 5px solid;
+    border-right: 5px solid;
 }
 
 .props:nth-of-type(2){
-    background: radial-gradient(circle, red 50%);
+    background-image: radial-gradient(circle, red 40%, white 40%, white 75%); 
+    border-bottom: 5px solid;
+    border-top: 5px solid;
 }
 
 .props:nth-of-type(3){
-    background: linear-gradient(90deg, blue 33.3%, white 33.3%, red 33.3%);
+    background: linear-gradient(90deg, blue 33.3%, white 33.3%, white 66.6%, red 66.6%);
 }
 
 .props:nth-of-type(4){
-    background: linear-gradient(180deg, red 33.3%, blue 33.3%, green 33.3%);
+    background: linear-gradient(180deg, red 30%, white 30%, white 35%, blue 35%, blue 65%, white 65%, 70%, green 70%);
+}
+
+.props:nth-of-type(5){
+    background: linear-gradient(180deg, green 33.3%, yellow 33.3%, yellow 66.6%, blue 66.6%);
+
+}
+
+.props:nth-of-type(6){
+    background: linear-gradient(180deg, black 33.3%, red 33.3%, red 66.6%, gold 66.6%);
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+
+
+}
+
+
+
+.props:nth-of-type(9){ 
+    background-image: url(./leaf.png), linear-gradient(90deg, red 30%, white 30%, white 70%, red 70%);
+    background-size: 70px, contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.props:nth-of-type(10){
+    background-image: url(./BlackStar.png), linear-gradient(180deg, red 33.3%, yellow 33.3%, yellow 66.6%, green 66.6%);
+    background-size: 65px, contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
